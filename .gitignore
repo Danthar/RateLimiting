@@ -1,0 +1,17 @@
+obj
+bin
+*.user
+*.suo
+*.orig
+output
+publish-*
+packages
+_ReSharper.*
+_dotCover.*
+*.Resharper
+*.Cache
+*.cache
+~$*
+[Pp]ublish
+*.ide
+*nunit.TestResult.*.xml
