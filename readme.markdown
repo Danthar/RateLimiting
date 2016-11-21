@@ -28,5 +28,5 @@ variables the TPL makes a decision on how many threads are going to process your
 to pieces, creating chunks, which will then be processed in parallel. However it can also decide to process the entire collection on 1 thread.
 In the first situation the RateGate wont work, in the former it does.
 
-Note 21-11-2016:
+##Note 21-11-2016:
 I see that this repository gets a little bit of attention. I want to point out to anyone that is looking at this code, that there are alot better alternatives available. Especially if you need things like backpressure and rate-limiting data in an multithreaded environment. https://github.com/akkadotnet/akka.net and the Akka streams port is an excellent improvement over this repo: http://getakka.net/docs/#akka-streams
